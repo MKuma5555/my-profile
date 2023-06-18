@@ -1,0 +1,151 @@
+body{
+    color: rgb(99, 101, 101);
+    max-width: 100%;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('file:///Users/misak/Downloads/watercolour-background-with-leaves/17.jpg')
+}
+
+#my_picture{
+   place-items: center;
+   width:250px;
+   height:auto;
+
+}
+
+#my_picture img{ 
+   width:200px;
+   height: auto;
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: white;
+}
+
+#head{
+    text-align: center;
+    color: rgb(99, 101, 101);
+}
+#head h3{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(240, 154, 171);
+
+}
+
+#main_profile{
+    display: flex;
+    justify-content:space-around;
+    margin: none;
+}
+
+
+#about_me{
+    /* width:450px; */
+    /* height:500px; */
+    display:flex;
+ 
+}
+
+#my_skill{
+    justify-content: center;
+    width:300px;
+    height: auto;
+    border-color: white;
+    border: 3px solid; 
+
+}
+#my_skill h3{
+    text-align: center;
+}
+
+
+.sns_link{
+    display: flex;
+    justify-content: center;
+}
+.sns_link li{
+    list-style: none;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.sns_link li:hover{
+    transform: scale(1.5);
+}
+
+.intro{
+  width:400px;
+}
+
+.project{
+    text-align: center;
+    /* width:500px;
+    height:auto; */
+    /* border-color: white;
+    border: 3px solid; */
+}
+
+.project ul{
+    display: flex;
+}
+
+.project img{
+    max-width: 100%;
+    height: auto;
+}
+
+#first_pj{
+    background-color: aliceblue;
+    max-width: 100%;
+    width:300px;
+    height:auto;
+    margin: 5px;
+}
+
+.project_link{
+    display: flex;
+    justify-content: space-around;
+}
+
+.link_play a{
+    color: #827272;
+    text-decoration: none;
+}
+
+#second_pj{
+    background-color: aliceblue;
+    max-width: 100%;
+    width:300px;
+    height:auto;
+    margin: 5px;
+}
+
+#third_pj{
+    background-color: aliceblue;
+    max-width: 100%;
+    width:300px;
+    height:auto;
+    margin: 5px;
+}
+
+#fourth_pj{
+    background-color: aliceblue;
+    max-width: 100%;
+    width:300px;
+    height:auto;
+    margin: 5px;
+}
+
+.project li{
+    cursor: pointer;
+    list-style: none;
+}
+
+.project li:hover{
+    transform: scale(1.5);
+}
+
+.project h2{
+    text-align: center;
+}
