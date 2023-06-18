@@ -15,3 +15,5 @@ This is my first project.
 - Click here to check and play the game *[Wordle game play](https://mkuma5555.github.io/wordle-app/wordle.html)*
 
 
+### ** Wedding venue ** ###
+This is my second project. 
