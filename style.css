@@ -1,4 +1,10 @@
+html{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
 body{
+    position: relative;
     color: rgb(99, 101, 101);
     max-width: 100%;
     width:100%;
@@ -92,7 +98,7 @@ body{
 
 .project img{
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 #first_pj{
@@ -107,6 +113,10 @@ body{
     display: flex;
     justify-content: space-around;
 }
+.img-pj{
+    height: 300px;
+}
+
 
 .link_play a{
     color: #827272;
